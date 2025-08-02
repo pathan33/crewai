@@ -1,0 +1,12 @@
+[project]
+name = "crewai-course"
+version = "0.1.0"
+description = "This repository contains a comprehensive guide to using CrewAI, including how to create and configure agents, define tasks, integrate tools, and build collaborative AI workflows. Ideal for learning how to design autonomous AI teams using a modular and scalable framework."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=0.152.0",
+    "crewai-tools",
+    "dotenv>=0.9.9",
+    "pip>=25.2",
+]
